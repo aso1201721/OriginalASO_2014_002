@@ -19,24 +19,24 @@
         </ListView>
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/button2"
-            android:layout_alignBottom="@+id/button2"
-            android:layout_alignLeft="@+id/listView1"
-            android:layout_marginLeft="29dp"
-            android:text="戻る" />
-
-        <Button
-            android:id="@+id/button2"
+            android:id="@+id/btndelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignRight="@+id/listView1"
             android:layout_below="@+id/listView1"
-            android:layout_marginRight="46dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="76dp"
             android:text="削除" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btndelete"
+            android:layout_alignBottom="@+id/btndelete"
+            android:layout_marginRight="36dp"
+            android:layout_toLeftOf="@+id/btndelete"
+            android:text="戻る" />
 
     </RelativeLayout>
 

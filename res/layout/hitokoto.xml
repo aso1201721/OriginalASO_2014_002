@@ -18,7 +18,7 @@
         android:layout_weight="0.68" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/txvMsg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
